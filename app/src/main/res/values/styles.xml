@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AddItemTheme" parent="BaseTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        //设置为true，背景就是灰色的了，反正你一看就知道是设置什么的
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="WorldsColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
